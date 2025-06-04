@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css" />
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: "Tajawal", Arial, sans-serif;
       margin: 0;
       padding: 0;
       background-color: #f8f8f8;
@@ -24,14 +24,19 @@
 
     nav {
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
       align-items: center;
-      flex-wrap: wrap;
     }
 
     nav h1 {
-      font-size: 18px;
-      margin: 0;
+      font-size: 22px;
+      margin: 0 0 5px 0;
+    }
+
+    nav .links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
     nav a {
@@ -39,6 +44,7 @@
       text-decoration: none;
       margin: 5px 10px;
       font-weight: bold;
+      font-size: 16px;
     }
 
     nav a:hover {
@@ -71,13 +77,14 @@
       margin-top: 30px;
     }
   </style>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 <body>
 
 <header>
   <nav>
     <h1>حزب التكافل الوطني السوري</h1>
-    <div>
+    <div class="links">
       <a href="#vision">الرؤية السياسية</a>
       <a href="#membership">شروط العضوية</a>
       <a href="#contact">اتصل بنا</a>
