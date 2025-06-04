@@ -1,0 +1,53 @@
+import React from "react";
+
+export default function Membership() {
+  return (
+    <main className="p-4">
+      <h1 className="text-2xl font-bold mb-4 text-center">شروط العضوية</h1>
+
+      <section className="bg-white rounded-xl shadow-md p-6 space-y-6">
+
+        <div>
+          <h2 className="text-xl font-semibold mb-2">شروط العضوية</h2>
+          <ul className="list-disc list-inside space-y-1">
+            <li>أن يكون العضو سوريًا.</li>
+            <li>لا يقل عمره عن 18 عامًا.</li>
+            <li>الإيمان بأهداف الحزب ومبادئه.</li>
+            <li>عدم الانتماء إلى حزب سياسي معادٍ.</li>
+            <li>الالتزام بالنظام الداخلي للحزب.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 className="text-xl font-semibold mb-2">قسم العضوية</h2>
+          <blockquote className="border-r-4 border-green-600 pr-4 italic text-gray-800">
+            "أقسم بالله العظيم أن أكون مخلصًا لوطني، ملتزمًا بمبادئ حزب التكافل الوطني السوري، وأعمل لتحقيق أهدافه في إطار الدستور والقانون، والله على ما أقول شهيد."
+          </blockquote>
+        </div>
+
+        <div>
+          <h2 className="text-xl font-semibold mb-2">الحقوق والواجبات</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <h3 className="text-lg font-semibold mb-1 text-green-700">الحقوق</h3>
+              <ul className="list-disc list-inside space-y-1">
+                <li>التعبير عن الرأي.</li>
+                <li>التصويت في قرارات الحزب.</li>
+                <li>الترشح للمناصب الداخلية.</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-1 text-red-700">الواجبات</h3>
+              <ul className="list-disc list-inside space-y-1">
+                <li>الالتزام بالنظام الداخلي.</li>
+                <li>احترام قرارات القيادة.</li>
+                <li>المشاركة في نشاطات الحزب.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+  );
+}
