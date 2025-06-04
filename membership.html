@@ -1,59 +1,90 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>شروط العضوية - حزب التكافل الوطني السوري</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <h1>حزب التكافل الوطني السوري</h1>
-        <ul>
-          <li><a href="index.html">الرؤية السياسية</a></li>
-          <li><a href="membership.html">شروط العضوية</a></li>
-          <li><a href="contact.html">اتصل بنا</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>شروط العضوية - حزب التكافل الوطني السوري</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #222;
+    }
 
-    <main class="container">
-      <section class="card">
-        <h2>شروط العضوية</h2>
-        <p>أن يكون العضو سوريًا، عمره 18 سنة فما فوق، ملتزمًا برؤية الحزب، وغير منتسب للنظام البائد أو المليشيات الانفصالية.</p>
-      </section>
+    header {
+      background-color: #007b7f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
 
-      <section class="card">
-        <h2>قسم العضوية</h2>
-        <p>
-          أقسم بالله العظيم أن أكون مخلصًا لوطني سوريا، وأن أعمل على تحقيق أهداف حزب التكافل الوطني السوري، ملتزمًا بقيمه ومبادئه، وأن أمارس حقوقي وأؤدي واجباتي بصدق وأمانة، بما يخدم وحدة الشعب السوري وكرامته.
-        </p>
-      </section>
+    nav {
+      background-color: #008c8c;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 10px 0;
+    }
 
-      <section class="card">
-        <h2>حقوق الأعضاء</h2>
-        <ul>
-          <li>المشاركة في اتخاذ القرار عبر التصويت والحوار.</li>
-          <li>الترشح للمسؤوليات التنظيمية والوظيفية ضمن الحزب.</li>
-          <li>الحصول على المعلومة والشفافية في عمل الحزب.</li>
-          <li>التعبير عن الرأي في إطار احترام النظام الداخلي.</li>
-        </ul>
-      </section>
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-      <section class="card">
-        <h2>واجبات الأعضاء</h2>
-        <ul>
-          <li>الالتزام برؤية الحزب وأهدافه وسلوكه السياسي.</li>
-          <li>المساهمة الفاعلة في النشاطات والفعاليات.</li>
-          <li>الامتناع عن أي سلوك يسيء للحزب أو يخالف القانون.</li>
-          <li>الحفاظ على سرية المعلومات التنظيمية عند اللزوم.</li>
-        </ul>
-      </section>
-    </main>
+    nav a:hover {
+      text-decoration: underline;
+    }
 
-    <footer>
-      <p>© 2025 حزب التكافل الوطني السوري</p>
-    </footer>
-  </body>
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #eee;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>حزب التكافل الوطني السوري</h1>
+  </header>
+
+  <nav>
+    <a href="vision.html">الرؤية السياسية</a>
+    <a href="membership.html">شروط العضوية</a>
+    <a href="contact.html">اتصل بنا</a>
+  </nav>
+
+  <main>
+    <h2>شروط العضوية</h2>
+    <p>
+      يشترط في من يرغب بالانضمام إلى حزب التكافل الوطني السوري ما يلي:
+    </p>
+    <ul>
+      <li>أن يكون سوري الجنسية.</li>
+      <li>أن يؤمن بمبادئ الحزب وأهدافه.</li>
+      <li>أن لا يكون منتمياً لأي حزب أو ميليشيا تنتهك حقوق السوريين.</li>
+      <li>أن يلتزم بالنظام الداخلي للحزب ويؤدي القسم أمام اللجنة التنظيمية.</li>
+    </ul>
+    <p>للانضمام، الرجاء التواصل معنا عبر صفحة <a href="contact.html">اتصل بنا</a>.</p>
+  </main>
+
+  <footer>
+    &copy; 2025 حزب التكافل الوطني السوري
+  </footer>
+
+</body>
 </html>
